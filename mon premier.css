@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    font-family: verdana;
+    margin: 0px;
+}
+#part-top{
+    top:0;
+    letter-spacing: 2px;
+}
+#cont-logo{
+
+   padding: 12px; 
+   float: left;
+}
+#cont-menu{
+    float: right;
+    padding: 12px;
+    color: black;
+    
+}
+.h11{
+    text-decoration: none;
+    color: black;
+    padding: 6px 12px;
+    
+}
+.h22{
+    position: absolute;
+    top: 40%;
+    text-align: right;
+    margin: 200px;
+    padding-left: 350PX;
+    color: white;
+    
+
+}
+.h11:hover{
+    background-color: #ddd;
+}
+
+#cont-gr-image{
+    width: 100%;
+
+}
+#gr-image{
+    max-width: 100%;
+}
+#gr-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125px,-10px);
+
+}
+h1{
+    color: white;
+    margin-top: 120px;
+    margin-right: 50px;
+    
+}
+.arch{
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+#br{
+    background-color: black;
+    padding: 8px 7px;
+    opacity: 0.75;
+    margin-right: 10px;
+}
+
+h2{
+    position: absolute;
+    background-color: black;
+    color:white;
+}
+.contenu-titre{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 30px;
+    padding-top: 30px;
+    border-bottom-color: #E6E6E6;
+    border-bottom-width: 0.1px;
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+
+}
+.cont-project{
+    position: relative;
+    float: left;
+    width: 23.8%;
+    margin:4px;
+    padding: 4px;
+}
+.image-project{
+    width: 100%;
+}
+.lighne-project{
+    margin: 20px;
+}
+.titre-image{
+    position: absolute;
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    font-size: 15px;
+}
+#part-top{
+    position:fixed;
+
+    background-color:white;
+    width:100%;
+    z-index: 1;
+    box-shadow: 0px 6px 20px red;
+    padding: 10px 0px;
+
+
+}
+#im{
+    height: 600px;
+    width: 100%;
+    background-image: url("house2.jpg"),url("house4.jpg");
+    background-repeat: no-repeat,repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
